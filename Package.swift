@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "IceCream",
+            type: .dynamic,
             targets: ["IceCream"]),
     ],
     dependencies: [
