@@ -14,8 +14,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/realm/realm-cocoa", 
-            from: "4.1.1"
+            url: "https://github.com/ts95/realm-cocoa", 
+            .branch("dynamic-linking")
         )
     ],
     targets: [
